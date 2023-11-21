@@ -1,0 +1,379 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    font-family: Montserrat;
+    margin: 2% 5%;
+}
+header{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+.compscience{
+    width: 35rem;
+    height: 5rem;
+}
+form{
+    margin-top: 1rem;
+}
+#search{
+    padding: 0.8rem 4rem;
+    border-color: #C0A062;
+    border-radius: 10px; 
+}
+#submit{
+    padding: 0.8rem 1rem;
+    border-color: #C0A062;
+    border-radius: 10px;
+    background-color: #fff;
+}
+#submit:hover{
+    color: #fff;
+    background-color: #070249;
+    border: none;
+}
+nav{
+    margin-top: 3rem;
+    justify-content: center;
+    display: flex;
+    gap: 6rem;
+    font-size: 20px;
+}
+.line{
+    height: 3rem;
+    width:0.5rem;
+}
+.link{
+    color: #C0A062;
+    text-decoration: none;
+}
+.link:hover{
+    color: #070249;
+}
+.Courses{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #00335A;
+    min-width: 160px;
+    z-index: 1;
+    font-size: 18px;
+}
+.dropdown-content a {
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+    background-color: #3776a5;
+}
+.Courses:hover .dropdown-content {
+    display: block;
+}
+.cover{
+    margin-top: 3rem;
+    width: 100%;
+    height: 600px;
+}
+.img{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+h1{
+    text-align: center;
+    font-size: 42px;
+    color: #00335A;
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+}
+.programs{
+    color: #94702a;
+    text-align: center;
+    font-size: 20px;
+    line-height: 30px;
+}
+.linkp{
+    color: #94702a;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 20px;
+}
+.linkp:hover{
+    color: #070249;
+}
+.shortcourses{
+    margin-top: 1rem;
+    color: #070249;
+    text-align: center;
+    line-height: 45px;
+    font-size: 24px;
+}
+.sc{
+    color: #94702a;
+    line-height: 50px;
+    font-size: 16px;
+}
+.coursesimg{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    width: 100%;
+    height: 600px;
+}
+.flex1{
+    display: flex;
+    margin-top: 2rem;
+    gap:2rem;
+    margin-bottom: 2rem;
+}
+.flex2{
+    background-color: #C0A062;
+    padding-top: 2rem;
+}
+.flex2:hover{
+    color: #fff;
+}
+.square{
+    width: 10rem;
+    height: 10rem;
+}
+.understand{
+    color: #070249;
+    font-size: 15px;
+    text-align: center;
+    width: 15rem;
+    justify-content: center;
+    margin-left: 2rem;
+}
+.understand:hover{
+    color: aliceblue;
+}
+footer{
+    background-color: #070249;
+    padding: 2rem;
+}
+.summaries{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.summary{
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+h2{
+    font-size: 30px;
+    color: #C0A062;
+}
+p{
+    font-size: 15px;
+    color: #fff;
+}
+.lc{
+    margin-top: 3rem;
+    display: flex;
+    gap: 17rem;
+    line-height: 45px;
+}
+.newsletter{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+#email{
+    padding: 0.5rem 1rem;
+    border-color: transparent;
+}
+#enter{
+    padding: 0.5rem 1rem;
+    border-color: transparent;
+    background-color: #fff;
+}
+.finale{
+    margin: 3rem;
+    display: flex;
+    gap: 70%;
+}
+.Copyright{
+    font-size: 14px;
+}
+.logo{
+    width: 6rem;
+    height: 2rem;
+    display: flex;
+}
+@media only screen and (min-width:760px) and (max-width:890px){
+.compscience{
+    width: 25rem;
+    height: 4rem;
+}
+#search{
+    padding: 0.5rem 1rem; 
+}
+#submit{
+    padding: 0.5rem 1rem;
+}
+nav{
+    display: flex;
+    gap: 2.6rem;
+    font-size: 18px;
+}
+.dropdown-content{
+    font-size: 14px;
+}
+.coursesimg{
+    height: 500px;
+}
+.flex1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+.square{
+    width: 15rem;
+    height: 12rem;
+}
+.understand{
+    font-size: 25px;
+    text-align: center;
+    width: auto;
+    margin-left: 2rem;
+    padding-bottom: 2rem;
+}
+.summaries{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    font-size: 20px;
+}
+.lc{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 3rem;
+}
+.newsletter{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 0.5rem;
+}
+.finale{
+    display: flex;
+    gap: 40%;
+}
+}
+@media only screen and (min-width:310px) and (max-width:430px){
+.compscience{
+    width: 10rem;
+    height: 2rem;
+}
+#search{
+    width:4rem; 
+    height: 1.2rem;
+    padding: 0rem;
+}
+#submit{
+    height: 1.5rem;
+    padding: 0rem;
+}
+form{
+    margin-top: 0.2rem;
+}
+nav{
+    display: flex;
+    gap: 0.4rem;
+    font-size: 12px;
+}
+.line{
+    height: 2rem;
+    width:0.2rem;
+}
+.dropdown-content{
+    font-size: 8px;
+    display: none;
+    position: absolute;
+    min-width: 0px;
+}
+.dropdown-content a {
+    padding: 12px 16px;
+
+}
+.cover{
+    height: 400px;
+}
+h1{
+    font-size: 32px;
+}
+.programs{
+    font-size: 14px;
+}
+.linkp{
+    font-size: 15px;
+}
+.shortcourses{
+    font-size: 12px;
+}
+.sc{
+    font-size: 12px;
+}
+.coursesimg{
+    height: 300px;
+}
+.flex1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+.square{
+    width: 15rem;
+    height: 12rem;
+}
+h3{
+    font-size: 24px;
+}
+.understand{
+    font-size: 18px;
+    margin-left: 3.5rem;
+}
+.summaries{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    font-size: 16px;
+}
+.lc{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 3rem;
+}
+.newsletter{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 0.5rem;
+}
+.finale{
+    display: flex;
+    gap: 1rem;
+}
+}
