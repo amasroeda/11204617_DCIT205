@@ -55,7 +55,24 @@ nav{
     color: #070249;
     text-decoration: none;
 }
-
+main{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+h1{
+    text-align: center;
+    color: #C0A062;
+    font-size: 46px;
+}
+.aboutc{
+    color: #070249;
+    line-height: 45px;
+    text-align: justify;
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
 footer{
     background-color: #070249;
     padding: 2rem;
