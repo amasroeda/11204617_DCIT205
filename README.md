@@ -32,6 +32,37 @@ Open the index.html file in your preferred web browser to view the website.
 Creator: Ama Sroeda Kwaa-Aidoo
 Student ID: 11204617
 ## Screenshots
+[screenshots](/Screenshot%20(128).png)
+[screenshots](/Screenshot%20(129).png)
+[screenshots](/Screenshot%20(130).png)
+[screenshots](/Screenshot%20(131).png)
+[screenshots](/Screenshot%20(132).png)
+[screenshots](/Screenshot%20(133).png)
+[screenshots](/Screenshot%20(134).png)
+[screenshots](/Screenshot%20(135).png)
+[screenshots](/Screenshot%20(136).png)
+[screenshots](/Screenshot%20(137).png)
+[screenshots](/Screenshot%20(138).png)
+[screenshots](/Screenshot%20(139).png)
+[screenshots](/Screenshot%20(140).png)
+[screenshots](/Screenshot%20(141).png)
+[screenshots](/Screenshot%20(142).png)
+[screenshots](/Screenshot%20(143).png)
+[screenshots](/Screenshot%20(144).png)
+[screenshots](/Screenshot%20(145).png)
+[screenshots](/Screenshot%20(146).png)
+[screenshots](/Screenshot%20(147).png)
+[screenshots](/Screenshot%20(148).png)
+[screenshots](/Screenshot%20(149).png)
+[screenshots](/Screenshot%20(150).png)
+[screenshots](/Screenshot%20(151).png)
+[screenshots](/Screenshot%20(152).png)
+[screenshots](/Screenshot%20(153).png)
+[screenshots](/Screenshot%20(154).png)
+[screenshots](/Screenshot%20(155).png)
+[screenshots](/Screenshot%20(156).png)
+[screenshots](/Screenshot%20(157).png)
+[screenshots](/Screenshot%20(160).png)
 
 ## Project Learnings
 Creating this website with simply HTML and CSS gave me a better grasp of front-end web development. I improved my abilities in web page structure, styling aspects, and providing a user-friendly interface. I also learnt how to arrange and present content on a website efficiently.
