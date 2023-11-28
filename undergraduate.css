@@ -55,24 +55,76 @@ nav{
     color: #070249;
     text-decoration: none;
 }
-main{
+.first{
     display: flex;
-    gap: 1rem;
     flex-direction: column;
-    margin-top: 2rem;
+    gap: 2rem;
 }
 h1{
     text-align: center;
+    font-size: 50px;
     color: #C0A062;
-    font-size: 46px;
+    margin-top: 3rem;
     margin-bottom: 1rem;
 }
-.aboutc{
+.entry{
+    color: #00335A;
+    line-height: 40px;
+    font-size: 18px;
+}
+h2{
     color: #070249;
-    line-height: 45px;
-    text-align: justify;
-    font-size: 20px;
+    text-align: center;
+    font-size: 32px;
     margin-bottom: 1rem;
+}
+h3{
+    color: #C0A062;
+    font-size: 20px;
+}
+h5{
+    font-size: 40px;
+    text-align: center;
+    color: #070249;
+    margin-bottom: 2rem;
+}
+.courses{
+    display: flex;
+    justify-content: space-between;
+}
+.Drop{
+    position: relative;
+    display: inline-block;
+}
+.dropdown{
+    display: none;
+    background-color: #C0A062;
+    min-width: 350px;
+    z-index: 1;
+}
+.Drop:hover .dropdown {
+    display: block;
+}
+h6{
+    font-size: 28px;
+    background-color: #C0A062;
+    color: #070249;
+    padding: 1rem;
+    border-radius: 10px;
+}
+.Level{
+    color: #070249;
+    font-size: 22px;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+.semester{
+    color: #070249;
+    font-size: 28px;
+}
+.Electives{
+    color: #070249;
+    font-size: 23px;
 }
 footer{
     background-color: #070249;

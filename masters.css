@@ -55,24 +55,47 @@ nav{
     color: #070249;
     text-decoration: none;
 }
-main{
-    display: flex;
-    gap: 1rem;
-    flex-direction: column;
-    margin-top: 2rem;
-}
 h1{
     text-align: center;
+    font-size: 45px;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
     color: #C0A062;
-    font-size: 46px;
+}
+.intro{
+    color: #070249;
+    font-size: 20px;
+    line-height: 45px;
+    margin-bottom: 2rem;
+}
+section{
+    display: flex;
+    display: flex;
+    margin-top: 3rem;
+    justify-content: space-between;
+}
+article{
+    background-color: #C0A062;
+    padding: 5rem;
+    line-height: 40px;
+}
+h2{
+    color: #070249;
+    font-size: 31px;
+}
+h3{
+    color: #00335A;
+    font-size: 28px;
+    margin-top: 1rem;
     margin-bottom: 1rem;
 }
-.aboutc{
+h4{
     color: #070249;
-    line-height: 45px;
-    text-align: justify;
+    font-size: 22px;
+}
+h5{
+    color: #070249;
     font-size: 20px;
-    margin-bottom: 1rem;
 }
 footer{
     background-color: #070249;
@@ -90,7 +113,7 @@ footer{
     flex-direction: column;
     gap: 1rem;
 }
-h4{
+h6{
     font-size: 30px;
     color: #C0A062;
 }

@@ -55,24 +55,72 @@ nav{
     color: #070249;
     text-decoration: none;
 }
-main{
+.first{
     display: flex;
-    gap: 1rem;
     flex-direction: column;
-    margin-top: 2rem;
+    gap: 1rem;
+    margin-top: 4.5rem;
+    margin-bottom: 2rem;
 }
 h1{
     text-align: center;
     color: #C0A062;
-    font-size: 46px;
-    margin-bottom: 1rem;
+    font-size: 48px;
+    margin-bottom: 2rem;
 }
-.aboutc{
-    color: #070249;
-    line-height: 45px;
+.short{
     text-align: justify;
+    color: #070249;
+    line-height: 45px; 
     font-size: 20px;
-    margin-bottom: 1rem;
+}
+.flex1{
+    display: flex;
+    margin-top: 2rem;
+    gap:2rem;
+    margin-bottom: 2rem;
+}
+.flex2{
+    background-color:#3776a5;
+    padding-top: 2rem;
+}
+.flex2:hover{
+    color: #fff;
+}
+h3{
+    text-align: center;
+    color: #070249;
+    font-size: 22px;
+    line-height: 30px;
+}
+.square{
+    width: 10rem;
+    height: 10rem;
+    margin-left: 4rem;
+}
+.understand{
+    color: #070249;
+    font-size: 15px;
+    text-align: center;
+    width: 15rem;
+    justify-content: center;
+    margin-left: 2rem;
+    line-height: 30px;
+}
+.Learn{
+    margin-left: 4.5rem;
+}
+.link{
+    display: flex;
+    justify-content: center;
+}
+.Register{
+    text-decoration: none;
+    background-color: #070249;
+    color: #C0A062;
+    font-size: 22px;
+    padding: 2rem;
+    border-radius: 10px;
 }
 footer{
     background-color: #070249;
