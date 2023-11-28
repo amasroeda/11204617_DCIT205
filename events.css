@@ -1,0 +1,132 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    font-family: Montserrat;
+    margin: 2% 5%;
+    background-color: aliceblue;
+}
+header{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+.compscience{
+    width: 30rem;
+    height: 5rem;
+}
+nav{
+    justify-content: center;
+    display: flex;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+.line{
+    height: 2rem;
+    width:0.2rem;
+}
+.Courses{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #00335A;
+    min-width: 160px;
+    z-index: 1;
+    font-size: 12px;
+}
+.dropdown-content a {
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+    background-color: #3776a5;
+}
+.Courses:hover .dropdown-content {
+    display: block;
+}
+.link{
+    font-size: 18px;
+    color: #070249;
+    text-decoration: none;
+}
+h1{
+    color: #C0A062;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    font-size: 40px;
+}
+h2{
+    text-align: center;
+    color: #070249;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.event{
+    color: #070249;
+    line-height: 40px;
+    font-size: 18px;
+}
+footer{
+    background-color: #070249;
+    padding: 2rem;
+    margin-top: 3rem;
+}
+.summaries{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.summary{
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+h6{
+    font-size: 30px;
+    color: #C0A062;
+}
+p{
+    font-size: 15px;
+    color: #fff;
+}
+.lc{
+    margin-top: 3rem;
+    display: flex;
+    gap: 17rem;
+    line-height: 45px;
+}
+.newsletter{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+#email{
+    padding: 0.5rem 1rem;
+    border-color: transparent;
+}
+#enter{
+    padding: 0.5rem 1rem;
+    border-color: transparent;
+    background-color: #fff;
+}
+.finale{
+    margin: 3rem;
+    display: flex;
+    gap: 70%;
+}
+.Copyright{
+    font-size: 14px;
+}
+.logo{
+    width: 6rem;
+    height: 2rem;
+    display: flex;
+}
